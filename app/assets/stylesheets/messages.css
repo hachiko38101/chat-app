@@ -1,0 +1,164 @@
+.wrapper{
+  display:flex
+}
+
+.side-bar{
+  width:300px;
+  background-color: #253141;
+  height: 100vh;
+}
+
+.side-top{
+  width:300px;
+  height:100px;
+  background-color: #253141;
+  padding:0 20px;
+  display:flex;
+  justify-content: space-between ;
+  align-items: center;
+}
+
+.user-name a{
+  font-size: 16px;
+  color:#FAFAFA;
+  text-decoration: none;
+}
+
+.make-chat a{
+  font-size:10px;
+  color:deepskyblue;
+  padding:14px;
+  border: 1px solid lightblue;
+  text-decoration:none;
+}
+
+.side-main{
+  width: 300px;
+  height:calc(100vh - 100px);
+  background-color: #2f3E51;
+  padding:0 20px;
+  overflow: scroll;
+}
+
+.room {
+  padding: 20px 0 40px;
+}
+
+.room-name a {
+  text-decoration: none;
+  color: white;
+}
+
+.chat{
+  width:calc ( 100vw - 300px );
+  background-color: #ffffff;
+  height: 100vh;
+}
+
+
+.chat-top{
+  width:calc(100vw - 300px);
+  height:100px;
+  background-color:#FFFFFF;
+  padding:0 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.chat-name{
+  font-size:24px;
+  color:#333;
+  margin:36px 0 0 0;
+}
+
+.chat-end{
+  margin:40px 0 0 0;
+}
+
+.chat-end a{
+  color:darkred;
+  border:1px solid darkred;
+  padding:20px;
+  text-decoration: none;
+}
+.chat-main{
+  width:calc(100vw - 100px);
+  height:calc(100vh - 100px - 90px);
+  background-color: #FAFAFA;
+  padding:46px 40px 0;
+  overflow:scroll;
+}
+
+.send-contents{
+  margin-top:10px;
+}
+
+.upper-contents{
+  display: flex;
+}
+
+.send-user{
+  font-size:16px;
+  color:#434A54;
+}
+
+.send-time{
+  font-size:12px;
+  color:#999;
+  margin-left:10px;
+}
+
+.lower-contents{
+  margin-top:10px;
+}
+
+.send-message{
+  font-size:14px;
+  color:#434A54;
+  margin-bottom:40px;
+}
+
+.chat-send{
+  width: calc(100vw - 300px);
+  height: 90px;
+  background-color: #DDDDDD;
+  padding:20px 40px;
+  display: flex;
+}
+
+.form-bar{
+  background-color: white;
+  width:100%;
+  display:flex;
+}
+
+.form-message{
+  border:none;
+  height:50px;
+  width:100%;
+  padding-left:10px;
+}
+
+.form-submit{
+  background-color:#38AEF0;
+  color:white;
+  font-size:16px;
+  padding:0 20px;
+  margin-left:15px;
+  border:none;
+  height:50px;
+}
+
+.form-image{
+  font-size:12px;
+  background-color:lightblue;
+  color:white;
+  padding:12px;
+  width:60px;
+  margin:5px 10px;
+  text-align:center;
+}
+
+.hidden{
+  display:none;
+}
