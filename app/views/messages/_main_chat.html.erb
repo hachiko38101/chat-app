@@ -4,7 +4,7 @@
 </div>
 
 <div class="chat-main">
-  <%= render partial: 'message', collectioon: @messages%>
+  <%= render partial: 'message', collection: @messages%>
 </div>
 
 <%= form_with model: [@room, @message], class: 'form', local: true do |f| %>
