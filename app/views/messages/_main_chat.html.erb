@@ -4,15 +4,7 @@
 </div>
 
 <div class="chat-main">
-  <div class="send-contents">
-    <div class="upper-contents">
-      <div class="send-user">Yuna</div>
-      <div class="send-time">2022/5/23</div>
-    </div>
-    <div class="lower-contents">
-      <div class="send-message">Good morning</div>
-    </div>
-  </div>
+  <%= render partial: 'message', collectioon: @messages%>
 </div>
 
 <%= form_with model: [@room, @message], class: 'form', local: true do |f| %>
