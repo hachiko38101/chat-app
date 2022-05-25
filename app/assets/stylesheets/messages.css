@@ -118,7 +118,7 @@
   margin-bottom:40px;
 }
 
-.chat-send{
+.form{
   width: calc(100vw - 300px);
   height: 90px;
   background-color: #DDDDDD;
@@ -126,7 +126,7 @@
   display: flex;
 }
 
-.form-bar{
+.form-input{
   background-color: white;
   width:100%;
   display:flex;
